@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <form class="container" ">
+    <form class="container">
         <div class=" heading">
-        <h1>Create an account</h1>
+            <h1>Create an account</h1>
         </div>
         <div class="main-form">
-            <input type="text" class="name" id="name" placeholder="Enter your name" required>
+            <input type="text" class="name" id="name" placeholder="Enter your name">
 
-            <input type="email" class="email" id="email" placeholder="Enter your email id">
+            <input type="text" class="email" id="email" placeholder="Enter your email id">
 
             <input type="text" class="phone_no" id="phone_no" placeholder="Enter your mobile no.">
 
@@ -33,6 +33,7 @@
             <div class="listbox">
                 <label class="listbox-heading" for="country">Choose your country : </label>
                 <select name="country" id="country">
+                    <option value="" style="display: none;">--Select--</option>
                     <option value="India">India</option>
                     <option value="USA">USA</option>
                     <option value="Germany">Germany</option>
@@ -46,11 +47,11 @@
 
             <div class="checkbox">
                 <label class="checkbox-heading">Select your preferred programing languages : </label>
-                <input type="checkbox" id="C-Cpp">
-                <label class="checkbox-item" for="C-C++"> C/C++</label><br>
-                <input type="checkbox" id="Java">
+                <input type="checkbox" id="C-Cpp" name="programing-language">
+                <label class="checkbox-item" for="C-Cpp"> C/C++</label><br>
+                <input type="checkbox" id="Java" name="programing-language">
                 <label class="checkbox-item" for="Java"> Java</label><br>
-                <input type="checkbox" id="Python">
+                <input type="checkbox" id="Python" name="programing-language">
                 <label class="checkbox-item" for="Python"> Python</label><br>
             </div>
 
@@ -59,7 +60,7 @@
             <input type="password" id="confirm-password" placeholder="Confirm password">
 
             <div class="submit-btn">
-                <input type="submit" class="btn" value="Sign up">
+                <input type="submit" class="btn" value="Sign up" onclick="return validateForm()">
             </div>
 
 
