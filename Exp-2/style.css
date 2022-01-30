@@ -1,0 +1,136 @@
+b {
+  margin: 0;
+}
+hr {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid rgb(173, 171, 171);
+  color: rgb(173, 171, 171);
+  height: 0px;
+}
+a {
+  color: black;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  right: 3rem;
+  top: 0;
+  padding: 2rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 0;
+}
+
+input,
+textarea {
+  font-family: cursive;
+  margin-left: 10%;
+  margin-top: 5px;
+  color: rgb(180, 178, 182);
+}
+
+input[type="text"],
+input[type="email"] {
+  margin-top: 30px;
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(173, 171, 171);
+}
+label {
+  width: 20%;
+  height: 30px;
+  font-family: cursive;
+  font-size: 15px;
+  border: none;
+  color: rgb(180, 178, 182);
+}
+
+textarea {
+  margin-top: 15px;
+  width: 80%;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(173, 171, 171);
+}
+.top-container {
+  background-color: #cfffdc;
+  padding-top: 10rem;
+  position: relative;
+  width: 100%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 22rem;
+  bottom: 20rem;
+}
+.top-cloud {
+  position: absolute;
+  top: 8rem;
+  right: 22rem;
+}
+.middle-container {
+  padding: 1rem;
+}
+.bottom-container {
+  padding: 1rem;
+}
+
+.profile {
+  position: relative;
+  padding: 1rem 0rem 1rem 35rem;
+  text-align: left;
+}
+.round {
+  position: absolute;
+  top: 0;
+  /* width: 15%; */
+  height: 11rem;
+  left: 23rem;
+  border-radius: 50%;
+}
+
+.background {
+  width: 40%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+.main-box {
+  margin-top: 1rem;
+  height: 100%;
+  background-color: rgba(62, 0, 119, 0.801);
+  text-align: left;
+  padding: 1rem;
+}
+::placeholder {
+  color: rgb(189, 183, 183);
+  background-color: transparent;
+}
+
+.Button {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 80px;
+  height: 30px;
+  /* margin-left: 10%; */
+  /* margin-top: 25px; */
+  margin: 25px 40% 0 40%;
+  background-color: rgb(156, 151, 224);
+  border-radius: 20px;
+  border: none;
+}
+.nav-item {
+  margin: 0 1rem;
+}
+.active {
+  color: #15868b;
+}

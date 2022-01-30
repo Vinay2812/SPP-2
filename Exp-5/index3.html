@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="task-3.js"></script>
+    <style>
+        body {
+            text-align: center;
+
+        }
+
+        input,
+        label {
+            font-size: 1.2rem;
+            border: none;
+            background-color: transparent;
+            color: #f7f4f4;
+        }
+
+        label {
+            font-size: 1.5rem;
+        }
+
+        input,
+        input:active {
+            border-bottom: 3px solid #90afc5;
+        }
+
+        input::placeholder {
+            color: #c5c0c0;
+        }
+
+        .container {
+            display: inline-block;
+            background-color: #336b87;
+            margin-top: 14%;
+        }
+
+        .item {
+            display: block;
+            padding: 1rem 2rem;
+        }
+
+        .output {
+            width: 100%;
+        }
+
+        .heading {
+            border-bottom: 3px solid white;
+        }
+
+        .btn {
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 7px 15px;
+            width: 100px;
+            cursor: pointer;
+            background-color: #b4a1a1;
+            color: rgb(78, 78, 76);
+        }
+
+        .btn:hover {
+            background-color: #cfb3b3;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2 style="color: #f7f4f4;">Convert a number to words</h2>
+        </div>
+        <div class="item">
+            <label for="user_number">Enter the number : </label>
+            <input class="input" type="text" name="number" id="user_number" placeholder="0 - 999" required>
+        </div>
+        <div class="item">
+            <input class="btn" type="submit" value="Convert" onclick="convert()">
+        </div>
+        <div class="item">
+            <input class="output" type="text" id="output" placeholder="Output is......" readonly>
+        </div>
+    </div>
+</body>
+
+</html>

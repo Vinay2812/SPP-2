@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="container" ">
+        <div class=" heading">
+        <h1>Create an account</h1>
+        </div>
+        <div class="main-form">
+            <input type="text" class="name" id="name" placeholder="Enter your name" required>
+
+            <input type="email" class="email" id="email" placeholder="Enter your email id">
+
+            <input type="text" class="phone_no" id="phone_no" placeholder="Enter your mobile no.">
+
+            <div class="gender">
+                <label class="gender-heading">Gender : </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label class="gender-item" for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label class="gender-item" for="female">Female</label><br>
+            </div>
+
+            <div class="listbox">
+                <label class="listbox-heading" for="country">Choose your country : </label>
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="France">France</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Japan">Japan</option>
+                </select>
+                <br><br>
+            </div>
+
+            <div class="checkbox">
+                <label class="checkbox-heading">Select your preferred programing languages : </label>
+                <input type="checkbox" id="C-Cpp">
+                <label class="checkbox-item" for="C-C++"> C/C++</label><br>
+                <input type="checkbox" id="Java">
+                <label class="checkbox-item" for="Java"> Java</label><br>
+                <input type="checkbox" id="Python">
+                <label class="checkbox-item" for="Python"> Python</label><br>
+            </div>
+
+
+            <input type="password" id="password" placeholder="Enter password">
+            <input type="password" id="confirm-password" placeholder="Confirm password">
+
+            <div class="submit-btn">
+                <input type="submit" class="btn" value="Sign up">
+            </div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>

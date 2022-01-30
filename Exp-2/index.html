@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp - 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital,wght@0,500&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #cfffdc;
+        }
+
+        h1 {
+            color: #66bfbf;
+            font-family: "Sacramento", cursive;
+            font-size: 5.625rem;
+            margin-bottom: 0;
+            
+        }
+
+        h2 {
+            color: #66bfbf;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+        h3{
+            color: #11999F;
+            font-family: 'Montserrat', sans-serif;
+            
+        }
+
+    </style>
+</head>
+<body>
+<div class="top-container">
+    <nav>
+        <a class="nav-item active" href="#">Home</a>
+        <a class="nav-item" href="#">About me</a>
+        <a class="nav-item" href="#">Contact me</a>
+    </nav>
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'am Vinay</h1>
+    <h2>a <u><em>pro</em></u>grammar</h2>
+    <img class="bottom-cloud"src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+</div>
+<hr>
+<div class="middle-container">
+    <h2><u>About Me.</u></h2>
+    <div class="profile">
+        <img class="round" src="images/profile-img.jpg" alt="">
+        <p>Hello. My name is Vinay Sarda. My hometown is Sangli, located in Maharashtra, India.</p>
+        <p>I'm a student, studying at SGU. Currently pursuing <strong>B.Tech</strong> degree. with C.G.P.A of <strong>9.48.</strong></p>
+        <p>I've completed my <strong>10th%</strong> in A.B.P.S, sangli. With percentage of 
+            <strong>90.8%</strong></p>
+        <p>I've completed my <strong>12th%</strong> in Narayana Junior College, Hyderabad. With percentage of 
+            <strong>93.0%</strong></p>
+    </div>
+    <hr>
+    <div class="contact-me">
+        <h2></h2>
+        <form>
+        <div class="background">
+            <h2 style="font-weight: lighter;font-family: Verdana, Geneva, Tahoma, sans-serif;">Contact Me</h2>
+            <div class="main-box">
+                <p style="padding: 0;margin: 0;text-align:center; font-size: 1.5rem; color: #fff;">
+                    Send us a message</p>
+    
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="phone_num" name="phone_num" placeholder="Phone No. ex- 9511874677"
+                    pattern="[6-9]{1}[0-9]{9}" required>
+                <input type="email" id="email" name="email" placeholder="Email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
+                <div style="margin-top: 20px;">
+                    <label style="margin-left: 10%;" aria-required="true">Gender : </label>
+                    <br>
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Other" name="Gender" value="Other">
+                    <label for="Other">Other</label>
+                </div>
+                <br>
+                <hr>
+                <textarea id="ta" name="message" placeholder="Message" rows="5" cols="46"></textarea>
+                <button type="submit" class="Button">Send</button>
+            
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+
+<div class="bottom-container">
+    <a class="footer-link" href="tel:+91-9511874677" target="_blank"><i class="fas fa-phone-alt fa-lg"></i></a>
+    <a class="footer-link" href="mailto: vinaysarda2812@gmail.com" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
+    <a class="footer-link" href="https://www.linkedin.com/in/vinay-sarda-360219205/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+    <a class="footer-link" href="https://github.com/Vinay2812" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+
+    <p>©Vinay Sarda.</p>
+</div>
+
+</body>
+</html>

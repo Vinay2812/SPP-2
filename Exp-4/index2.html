@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="task-2.js"></script>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        button,
+        input,
+        label {
+            font-size: 1.5rem;
+            background-color: transparent;
+        }
+
+        input,
+        label {
+            border: none;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        button {
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 4px 10px;
+            cursor: pointer;
+        }
+
+        .main-container {
+            border: 2px solid white;
+            display: inline-block;
+            text-align: left;
+            margin-top: 10%;
+            background-color: #d9d9d9;
+        }
+
+        .item {
+            display: block;
+            margin: 1rem 0;
+            padding: 1rem 3rem;
+        }
+
+        .btn {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .item .output-item {
+            width: 100%;
+            border: none;
+            border-bottom: 3px solid rgb(143, 141, 141);
+            background-color: transparent;
+        }
+
+        .heading {
+            text-align: center;
+            border-bottom: 3px solid rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="heading">
+            <h2>Compare the Dates</h2>
+        </div>
+        <div class="item">
+            <label for="Date1">Choose Date1 : </label>
+            <input id="Date1" type="date" required>
+        </div>
+        <div class="item">
+            <label for="Date2">Choose Date2 : </label>
+            <input id="Date2" type="date" required>
+        </div>
+        <div class="btn">
+            <button type="submit" onclick="compareDate()">Compare</button>
+        </div>
+        <div class="item">
+            <input class="output-item" id="Output" placeholder="Output is ....." readonly="readonly">
+        </div>
+    </div>
+
+</body>
+
+</html>
